@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var task = process.argv[2];
-var io = require('lerna-semantic-release-io').default;
+var io = require('ibb-lerna-semantic-release-io').default;
 
 var tasks = {
   pre: require('lerna-semantic-release-pre'),

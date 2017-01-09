@@ -1,12 +1,9 @@
 {
-  "name": "lerna-semantic-release",
+  "name": "ibb-lerna-semantic-release",
   "description": "automated semver compliant package publishing, for lerna",
   "author": "Joshua Nelson <jonelson@atlassian.com>, Joscha Feth <jfeth@atlassian.com>",
   "bin": {
     "lerna-semantic-release": "bin/lerna-semantic-release.js"
-  },
-  "bugs": {
-    "url": "https://github.com/atlassian/lerna-semantic-release/issues"
   },
   "config": {
     "commitizen": {
@@ -17,7 +14,7 @@
     "lerna-semantic-release-pre": "^4.0.14",
     "lerna-semantic-release-post": "^5.0.13",
     "lerna-semantic-release-perform": "^4.0.13",
-    "lerna-semantic-release-io": "^5.0.13"
+    "ibb-lerna-semantic-release-io": "^5.0.13"
   },
   "peerDependencies": {
     "lerna": "*"
@@ -44,7 +41,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atlassian/lerna-semantic-release.git"
+    "url": "https://github.com/crywolf/lerna-semantic-release.git"
   },
   "scripts": {
     "test": "echo 'no tests'; exit 0"
@@ -52,5 +49,5 @@
   "release": {
     "branch": "caribou"
   },
-  "version": "8.0.2"
+  "version": "8.0.4"
 }

@@ -1,9 +1,6 @@
 {
-  "name": "lerna-semantic-release-io",
+  "name": "ibb-lerna-semantic-release-io",
   "author": "Joshua Nelson <jonelson@atlassian.com>, Joscha Feth <jfeth@atlassian.com>",
-  "bugs": {
-    "url": "https://github.com/atlassian/lerna-semantic-release/issues"
-  },
   "dependencies": {
     "git-head": "1.14.0",
     "lerna-semantic-release-utils": "^4.0.0",
@@ -32,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atlassian/lerna-semantic-release.git"
+    "url": "https://github.com/crywolf/lerna-semantic-release.git"
   },
   "release": {
     "branch": "caribou"
@@ -40,5 +37,5 @@
   "scripts": {
     "test": "echo 'no tests'; exit 0"
   },
-  "version": "5.0.13"
+  "version": "5.0.14"
 }
