@@ -11,10 +11,10 @@
     }
   },
   "dependencies": {
-    "lerna-semantic-release-pre": "^4.0.14",
+    "ibb-lerna-semantic-release-pre": "^4.0.14",
     "lerna-semantic-release-post": "^5.0.13",
     "lerna-semantic-release-perform": "^4.0.13",
-    "ibb-lerna-semantic-release-io": "^5.0.13"
+    "ibb-lerna-semantic-release-io": "^5.0.15"
   },
   "peerDependencies": {
     "lerna": "*"
@@ -49,5 +49,5 @@
   "release": {
     "branch": "caribou"
   },
-  "version": "8.0.4"
+  "version": "8.0.5"
 }

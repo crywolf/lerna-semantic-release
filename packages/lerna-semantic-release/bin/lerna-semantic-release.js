@@ -4,7 +4,7 @@ var task = process.argv[2];
 var io = require('ibb-lerna-semantic-release-io').default;
 
 var tasks = {
-  pre: require('lerna-semantic-release-pre'),
+  pre: require('ibb-lerna-semantic-release-pre'),
   perform: require('lerna-semantic-release-perform'),
   post: require('lerna-semantic-release-post')
 };

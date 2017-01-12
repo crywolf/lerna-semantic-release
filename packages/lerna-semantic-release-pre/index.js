@@ -81,6 +81,7 @@ function bumpVersionCommitAndTag (nextRelease, done) {
 
   async.series([
     io.npm.version(releaseTypeToNpmVersionType(nextRelease.type)),
+    io.git.addPackageJson(),
     io.git.commit(releaseCommitMessage + '\nTag for lerna release'),
     io.git.tag(lernaTag, 'tag for lerna releases')
   ], function (err) {

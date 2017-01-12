@@ -19,8 +19,11 @@ module.exports = {
       simpleGit().revparse(done)
     }
   },
+  addPackageJson: function() {
+    return execAsTask('git add package.json');
+  },
   commit: function commit (message) {
-    return execAsTask('git commit -anm\'' + message +'\' --allow-empty');
+    return execAsTask('git commit -nm\'' + message +'\' --allow-empty');
   },
   head: gitHead,
   pull: function pull () {

@@ -1,5 +1,5 @@
 {
-  "name": "lerna-semantic-release-pre",
+  "name": "ibb-lerna-semantic-release-pre",
   "author": "Joshua Nelson <jonelson@atlassian.com>, Joscha Feth <jfeth@atlassian.com>",
   "bugs": {
     "url": "https://github.com/atlassian/lerna-semantic-release/issues"
@@ -26,7 +26,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atlassian/lerna-semantic-release.git"
+    "url": "https://github.com/crywolf/lerna-semantic-release.git"
   },
   "scripts": {
     "test": "mocha test/unit.js"
